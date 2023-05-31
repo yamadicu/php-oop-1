@@ -1,10 +1,13 @@
 <?php 
 class movie{
-
+public $attore; 
+function __construct($eta_attore){
+    $this->attore = $eta_attore;
+}
 }
 
-$Genere = new movie()
+$Genere = new movie(20);
 
-var_dump($Genere)
+echo $Genere-> attore
 
 ?>
