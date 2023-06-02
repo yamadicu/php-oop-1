@@ -1,27 +1,8 @@
-<?php 
-include_once __DIR__ . '/partials/head.php'
-include_once __DIR__ . '/partials/footer.php'
+<?php
 
-class movie{
-public $titolo;
-public $durata;
-public $poster;
-public function __construct($_titolo, $_duration, $_poster){
-    $this->titolo = $_titolo;
-    $this->duration = $_duration;
-    $this->poster = $_poster;
-}
+include_once __DIR__ . '/partials/head.php';
+include_once __DIR__ . '/partials/movie.php';
+include_once __DIR__ . '/partials/footer.php';
 
-public function get_movie_deails(){
-    return "movie: $this->titolo "
-}
-
-}
-
-
-
-$Genere = new movie(20);
-
-echo $Genere-> attore
 
 ?>
